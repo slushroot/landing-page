@@ -1,8 +1,7 @@
 body {
     margin: 0;
-    font-style: italic;
-    font-size: medium;
-    background-color: whitesmoke;
+    font-family: "Open Sans", sans-serif;
+    color: #333;
 }
 
 .container {
@@ -30,17 +29,19 @@ body {
 
 .first-text {
     display: flex;
+    background-color: darkslateblue;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     padding: 10px;
+    margin-bottom: 5px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .second-text {
     width: 250px;
     height: 400px;
-    padding: 5px;;
+    padding: 15px;;
     opacity: 0.7;
     background-color: dimgray;
     display: flex;
@@ -53,22 +54,54 @@ body {
     image-rendering: pixelated;
     border-radius: 50%/40px;
     opacity: 0.7;
+    padding: 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
 .list {
-    justify-content: center;
-    align-items: center;
-    display: flex;
     background-color: aliceblue;
+    justify-content: center;
 }
 
 ul {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     list-style-type: none;
+    justify-content: space-evenly;
+    background-color: darkslateblue;
+}
+
+li {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.list-1 {
+    display: flex;
+    background-color: rgb(36, 124, 133);
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%/40px;
+}
+
+.list-2 {
+    display: flex;
+    background-color: rgb(36, 124, 133);
+    justify-content: center;
+    font-size: 10px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%/40px;
+}
+
+.total-list {
+    background-color: darkslateblue;
+    padding: 5px;
+    
 }
 
 a {
@@ -78,7 +111,6 @@ a {
 }
 
 .footer {
-
     left: 0;
     bottom: 0;
     width: 100%;
