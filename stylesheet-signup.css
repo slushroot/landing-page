@@ -1,0 +1,30 @@
+.body, html {
+    
+    font-family: "Open Sans", sans-serif;
+}
+
+.header {
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 100%;
+}
+
+.welcome {
+    background-color: deepskyblue;
+    padding: 5px;
+    margin: 0;
+    width: 100%;
+    text-align: center;
+}
+
+
+.footer {
+    left: 0;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    background-color: dimgray;
+    opacity: 0.7;
+}
