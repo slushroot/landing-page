@@ -1,6 +1,7 @@
 .body, html {
-    
+    background-color: cadetblue;
     font-family: "Open Sans", sans-serif;
+    color: black;
 }
 
 .header {
@@ -16,6 +17,38 @@
     margin: 0;
     width: 100%;
     text-align: center;
+}
+
+.signup-container {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    align-items: center;
+    text-align: center;
+}
+
+.text-signup {
+    border-radius: 50%/100px;
+    border-color: coral;
+}
+
+.signup-button {
+    border-radius: 50%/100px;
+    margin-left: 40px;
+    
+}
+
+.explanation {
+    text-align: center;
+}
+
+a {
+    color: black;
+}
+
+li {
+    list-style: none;
+    margin: 8px;
 }
 
 
