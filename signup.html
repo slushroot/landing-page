@@ -4,26 +4,47 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" href="./stylesheet-signup.css">
     <title>sign up page</title>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.birds.min.js"></script>
+    <script>
+    window.addEventListener('DOMContentLoaded', () => {
+        VANTA.BIRDS({
+        el: "#vanta",
+        mouseControls: true,
+        touchControls: true,
+        gyroControls: false,
+        minHeight: 200.00,
+        minWidth: 200.00,
+        scale: 1.00,
+        scaleMobile: 1.00
+        })
+    })
+    </script>
 </head>
 <body>
-    <div class="header">
-        <div class="welcome">welcome to the sign up page</div>
-    </div>
+    <div id="vanta"></div>
+    <main>
+        <div class="header">
+            <div class="welcome">welcome to the sign up page</div>
+        </div>
 
-    <div class="signup-container">
-        <ul class="signup-info">
-            <li>email</li>
-            <input type="text" name="email" class="text-signup">
-            <li>password</li>
-            <input type="text" name="password" class="text-signup">
-        </ul>
-        <button onclick="window.location.reload()" class="signup-button">sign up</button>
-    </div>
+        <div class="signup-container">
+            <ul class="signup-info">
+                <li>email</li>
+                <input type="text" name="email" class="text-signup">
+                <li>password</li>
+                <input type="text" name="password" class="text-signup">
+            </ul>
+            <button onclick="window.location.reload()" class="signup-button">sign up</button>
+        </div>
 
-    <div class="explanation">
-        <a>the sign up page, we will need your email and and for you to create a password.</a>
-    </div>
+        <div class="explanation">
+            <a>the sign up page, we will need your email and and for you to create a password.</a>
+        </div>
 
+        
+    </main>
     <div class="footer">
         <p>all rights goes to husky corp</p>
     </div>

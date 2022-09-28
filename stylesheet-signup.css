@@ -1,22 +1,38 @@
 .body, html {
-    background-color: cadetblue;
+    margin:0px;
+    padding: 0px;
+    background-color: #232946;
     font-family: "Open Sans", sans-serif;
-    color: black;
+    color: #fffffe;
+    
+}
+
+main    {
+    position: relative;
+}
+
+#vanta {
+    z-index: 0;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
 }
 
 .header {
-    top: 0;
-    left: 0;
-    position: absolute;
-    width: 100%;
+    margin-left: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+
 .welcome {
-    background-color: deepskyblue;
-    padding: 5px;
-    margin: 0;
-    width: 100%;
-    text-align: center;
+    background-color: #b8c1ec;
+    color: #232946;
+    border-radius: 50%/200px;
+    padding: 10px;
 }
 
 .signup-container {
@@ -35,16 +51,17 @@
 .signup-button {
     border-radius: 50%/100px;
     margin-left: 40px;
-    
+    width: 100px;
+    height: 30px;
+    background-color: #eebbc3;
+    color: #232946
 }
 
 .explanation {
     text-align: center;
 }
 
-a {
-    color: black;
-}
+
 
 li {
     list-style: none;
